@@ -9,7 +9,7 @@ metadata:
     environment: production
     managed-by: argocd
 spec:
-  replicas: 2
+  replicas: 5
   selector:
     matchLabels:
       app: devops-web-app
